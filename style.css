@@ -1,0 +1,55 @@
+Paste this in your CSS file
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.weather-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.weather-info {
+    font-size: 18px;
+}
+.b {
+    text-transform: uppercase;
+    color: springgreen;
+    background-color: yellowgreen;
+    border-radius: 50px;
+}
+.o{
+    color: white;
+    background-color: brown;
+}
+.i{
+    background-color: blue;
+    color: white;
+} 
